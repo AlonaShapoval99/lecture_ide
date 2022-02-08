@@ -18,6 +18,13 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'HelloWorld'
+        )
+    }
+}
 shadowJar {
     zip64 true
     archiveBaseName.set('lecture_idea')

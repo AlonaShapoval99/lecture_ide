@@ -18,5 +18,8 @@ public class Calculator {
     public int subtract(){
         return x - y;
     }
-    public int
+    public int divide(){
+        return x / y;
+    }
+
 }
